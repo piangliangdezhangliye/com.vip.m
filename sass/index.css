@@ -1,0 +1,292 @@
+body {
+  background-color: #f3f4f6;
+}
+
+header {
+  width: 100%;
+  height: 40px;
+  padding: 4px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .one {
+  float: left;
+  width: 30px;
+  height: 100%;
+  color: #585c64;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+header .two {
+  padding: 0px 10px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+header .two input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  border: 1px solid #ccc;
+  background-color: #f3f4f5;
+  border-radius: 15px;
+  padding: 0px 6px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .three {
+  float: right;
+}
+
+header .three img {
+  width: 24px;
+  height: 24px;
+  margin-top: 4px;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  padding: 10px 6px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav a {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0px 4px;
+  height: 100%;
+  color: #585c64;
+  font-size: 13px;
+  text-align: center;
+}
+
+nav a:first-child {
+  color: #d34ba8;
+  border-bottom: 4px solid #d34ba8;
+}
+
+main .carousel {
+  width: 100%;
+}
+
+main .carousel li {
+  width: 100%;
+}
+
+main .carousel li img {
+  width: 100%;
+}
+
+main .clothes {
+  position: relative;
+  overflow: hidden;
+}
+
+main .clothes .clothes-one {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+main .clothes .clothes-two {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 100%;
+}
+
+main .clothes a {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 20%;
+  padding: 6px 4px;
+  padding-bottom: calc(30rem/112.5);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .clothes a img {
+  z-index: 2;
+  width: 100%;
+}
+
+main .brand {
+  overflow: hidden;
+}
+
+main .brand img {
+  float: left;
+  width: 33.333%;
+}
+
+main .brand img:first-child {
+  width: 100%;
+}
+
+main .grab {
+  position: relative;
+  width: 100%;
+}
+
+main .grab > img {
+  width: 100%;
+}
+
+main .grab ul {
+  position: absolute;
+  left: 0px;
+  bottom: 20px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  padding: 0px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .grab ul li {
+  float: left;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  padding: 0px 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .grab ul li a {
+  width: 100%;
+  height: 100%;
+}
+
+main .grab ul li a img:first-child {
+  width: 100%;
+}
+
+main .grab ul li a img:nth-child(2) {
+  width: calc(70rem/45);
+}
+
+main .grab ul li a span {
+  float: left;
+  color: #fff;
+  padding: 2px 4px;
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#de3f98), to(#cb75d9));
+  background-image: linear-gradient(to right, #de3f98, #cb75d9);
+}
+
+main .grab ul li a del {
+  display: inline-block;
+  color: #222222;
+  font-size: calc(28rem/112.5);
+  line-height: calc(60rem/112.5);
+}
+
+main .last {
+  position: relative;
+  width: 100%;
+}
+
+main .last img {
+  width: 100%;
+}
+
+main .last ul {
+  position: absolute;
+  left: 0;
+  bottom: calc(50rem/112.5);
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px calc(44rem/112.5);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+main .last ul li {
+  float: left;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 0px calc(6rem/112.5);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .last ul li a {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+main .last ul li a > img {
+  border-radius: 6px;
+  margin-bottom: calc(30rem/112.5);
+}
+
+main .last ul li a .last-brand {
+  position: absolute;
+  bottom: calc(93rem/112.5);
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: calc(245rem/112.5);
+  height: calc(150rem/112.5);
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 6px;
+}
+
+main .last ul li a .last-brand img {
+  width: calc(145rem/112.5);
+  margin: calc(14rem/112.5);
+}
+
+main .last ul li a .last-brand span {
+  display: block;
+  color: #585c64;
+}
+
+main .last ul li a .last-price {
+  width: 100%;
+  margin: auto;
+}
+
+main .last ul li a .last-price span {
+  float: left;
+  color: #fff;
+  padding: 2px 4px;
+  border-radius: 10px;
+  margin-left: calc(50rem/112.5);
+  margin-right: calc(15rem/112.5);
+  background-image: -webkit-gradient(linear, left top, right top, from(#de3f98), to(#cb75d9));
+  background-image: linear-gradient(to right, #de3f98, #cb75d9);
+}
+
+main .last ul li a .last-price del {
+  display: inline-block;
+  color: #222222;
+  font-size: calc(28rem/112.5);
+  line-height: calc(60rem/112.5);
+}
+/*# sourceMappingURL=index.css.map */

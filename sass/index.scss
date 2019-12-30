@@ -1,0 +1,237 @@
+// 身体
+body{
+    background-color: #f3f4f6;
+}
+// 头部
+header{
+    width: 100%;
+    height: 40px;
+    padding: 4px 10px;
+    display: flex;
+    box-sizing: border-box;
+    .one{
+        float: left;
+        width: 30px;
+        height: 100%;
+        color: #585c64;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .two{
+        padding: 0px 10px;
+        flex: 1;
+        input{
+            width: 100%;
+            height: 30px;
+            border: none;
+            border: 1px solid #ccc;
+            background-color: #f3f4f5;
+            border-radius: 15px;
+            padding: 0px 6px;
+            box-sizing: border-box;
+        }
+    }
+    .three{
+        float: right;
+        img{
+            width: 24px;
+            height: 24px;
+            margin-top: 4px;
+        }
+    }
+}
+// 导航切换
+nav{
+    display: flex;
+    height: 40px;
+    padding: 10px 6px;
+    box-sizing: border-box;
+    a{
+        flex: 1;
+        margin: 0px 4px;
+        height: 100%;
+        color: #585c64;
+        font-size: 13px;
+        text-align: center;
+        &:first-child{
+            color: #d34ba8;
+            border-bottom: 4px solid #d34ba8;
+        }
+    }
+}
+// 主体
+main{
+    // 轮播图
+    .carousel{
+        width: 100%;
+        li{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    // 服装分类
+    .clothes{
+        position: relative;
+        overflow: hidden;
+        .clothes-one{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+        }
+        .clothes-two{
+            position: absolute;
+            top: 90px;
+            left: 0;
+            width: 100%;
+        }
+        a{
+            position: relative;
+            z-index: 2;
+            float: left;
+            width: 20%;
+            padding: 6px 4px;
+            padding-bottom: calc(30rem/112.5);
+            box-sizing: border-box;
+            img{
+                z-index: 2;
+                width: 100%;
+            }
+        }
+    }
+    // 品牌钜献
+    .brand{
+        overflow: hidden;
+        img{
+            float: left;
+            width: 33.333%;
+            &:first-child{
+                width: 100%;
+            }
+        }
+    }
+    // 唯品快抢
+    .grab{
+        position: relative;
+        width: 100%;
+        &>img{
+            width: 100%;
+        }
+        ul{
+            position: absolute;
+            left: 0px;
+            bottom: 20px;
+            width: 100%;
+            display: flex;
+            overflow: hidden;
+            padding: 0px 10px;
+            box-sizing: border-box;
+            li{
+                float: left;
+                flex: 1;
+                text-align: center;
+                padding: 0px 4px;
+                box-sizing: border-box;
+                a{
+                    width: 100%;
+                    height: 100%;
+                    img{
+                        &:first-child{
+                            width: 100%;
+                        }
+                        &:nth-child(2){
+                            width: calc(70rem/45);
+                        }
+                    }
+                    span{
+                        float: left;
+                        color: #fff;
+                        padding: 2px 4px;
+                        border-radius: 10px;
+                        background-image: linear-gradient(to right, #de3f98,#cb75d9);
+                    }
+                    del{
+                        display: inline-block;
+                        color: #222222;
+                        font-size: calc(28rem/112.5);
+                        line-height: calc(60rem/112.5);
+                    }
+                }
+            }
+        }
+    }
+    // 最后疯抢
+    .last{
+        position: relative;
+        width: 100%;
+        img{
+            width: 100%;
+        }
+        ul{
+            position: absolute;
+            left: 0;
+            bottom: calc(50rem/112.5);
+            width: 100%;
+            display: flex;
+            padding: 0px calc(44rem/112.5);
+            box-sizing: border-box;
+            overflow: hidden;
+            li{
+                float: left;
+                flex: 1;
+                padding: 0px calc(6rem/112.5);
+                box-sizing: border-box;
+                a{
+                    position: relative;
+                    display: block;
+                    width: 100%;
+                    &>img{
+                        border-radius: 6px;
+                        margin-bottom: calc(30rem/112.5);
+                    }
+                    .last-brand{
+                        position: absolute;
+                        bottom: calc(93rem/112.5);
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                        width: calc(245rem/112.5);
+                        height: calc(150rem/112.5);
+                        text-align: center;
+                        background-color: rgba($color: #fff, $alpha: 0.8);
+                        border-radius:6px;
+                        img{
+                            width: calc(145rem/112.5);
+                            margin: calc(14rem/112.5);
+                        }
+                        span{
+                            display: block;
+                            color: #585c64;
+                        }
+                    }
+                    .last-price{
+                        width: 100%;
+                        margin: auto;
+                        span{
+                            float: left;
+                            color: #fff;
+                            padding: 2px 4px;
+                            border-radius: 10px;
+                            margin-left: calc(50rem/112.5);
+                            margin-right: calc(15rem/112.5);
+                            background-image: linear-gradient(to right, #de3f98,#cb75d9);
+                        }
+                        del{
+                            display: inline-block;
+                            color: #222222;
+                            font-size: calc(28rem/112.5);
+                            line-height: calc(60rem/112.5);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
