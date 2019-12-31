@@ -234,4 +234,58 @@ main{
             }
         }
     }
+    // 今日特卖标题
+    .today-title{
+        img{
+            width: 100%;
+        }
+    }
+    // 今日特卖内容
+    .today{
+        width: 100%;
+        display: block;
+        padding:0px calc(40rem/112.5) ;
+        box-sizing: border-box;
+        img{
+            width: 100%;
+            border-top-left-radius: calc(20rem/112.5);
+            border-top-right-radius: calc(20rem/112.5);
+        }
+        .today-content-title{
+            width: 100%;
+            padding: 0px calc(40rem/112.5) ;
+            padding-top: calc(40rem/112.5);
+            box-sizing: border-box;
+            overflow: hidden;
+            background-color: #fff;
+            h3{
+                float: left;
+                font-size: calc(42rem/112.5);
+                font-weight: bolder;
+            }
+            strong{
+                float: right;
+                color: #98989f;
+                font-size: calc(34rem/112.5);
+                font-weight: normal;
+            }
+        } 
+        .today-content{
+            padding:  0px calc(40rem/112.5) ;
+            padding-bottom: calc(40rem/112.5);
+            box-sizing: border-box;
+            margin-bottom: calc(42rem/112.5);
+            border-bottom-left-radius: calc(20rem/112.5);
+            border-bottom-right-radius: calc(20rem/112.5);
+            background-color: #fff;
+            span{
+                display: inline-block;
+                color: #de3d96;
+                margin-top: calc(30rem/112.5);
+            }
+            p{
+                display: inline-block;
+            }
+           }
+    }
 }

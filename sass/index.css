@@ -289,4 +289,66 @@ main .last ul li a .last-price del {
   font-size: calc(28rem/112.5);
   line-height: calc(60rem/112.5);
 }
+
+main .today-title img {
+  width: 100%;
+}
+
+main .today {
+  width: 100%;
+  display: block;
+  padding: 0px calc(40rem/112.5);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .today img {
+  width: 100%;
+  border-top-left-radius: calc(20rem/112.5);
+  border-top-right-radius: calc(20rem/112.5);
+}
+
+main .today .today-content-title {
+  width: 100%;
+  padding: 0px calc(40rem/112.5);
+  padding-top: calc(40rem/112.5);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+main .today .today-content-title h3 {
+  float: left;
+  font-size: calc(42rem/112.5);
+  font-weight: bolder;
+}
+
+main .today .today-content-title strong {
+  float: right;
+  color: #98989f;
+  font-size: calc(34rem/112.5);
+  font-weight: normal;
+}
+
+main .today .today-content {
+  padding: 0px calc(40rem/112.5);
+  padding-bottom: calc(40rem/112.5);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: calc(42rem/112.5);
+  border-bottom-left-radius: calc(20rem/112.5);
+  border-bottom-right-radius: calc(20rem/112.5);
+  background-color: #fff;
+}
+
+main .today .today-content span {
+  display: inline-block;
+  color: #de3d96;
+  margin-top: calc(30rem/112.5);
+}
+
+main .today .today-content p {
+  display: inline-block;
+}
 /*# sourceMappingURL=index.css.map */
