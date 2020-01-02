@@ -1,0 +1,24 @@
+body {
+  background-color: #fafafa;
+}
+
+header {
+  width: 100%;
+}
+
+header img {
+  width: 100%;
+}
+
+header ul {
+  width: 100%;
+  overflow: hidden;
+}
+
+header ul li {
+  float: left;
+  width: 50%;
+  text-align: center;
+  line-height: calc(135rem/112.5);
+}
+/*# sourceMappingURL=last.css.map */

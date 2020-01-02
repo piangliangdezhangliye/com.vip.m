@@ -1,0 +1,21 @@
+// 身体
+body{
+    background-color: #fafafa;
+}
+// 头部
+header{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+    ul{
+        width: 100%;
+        overflow: hidden;
+        li{
+            float: left;
+            width: 50%;
+            text-align: center;
+            line-height: calc(135rem/112.5);
+        }
+    }
+}

@@ -1,0 +1,112 @@
+header {
+  width: 100%;
+  height: calc(510rem/112.5);
+  text-align: center;
+  background-image: url(../upload/Login-background.jpg);
+}
+
+header img {
+  width: calc(315rem/112.5);
+  margin: calc(180rem/112.5) auto;
+}
+
+main {
+  width: 100%;
+}
+
+main ul {
+  width: 100%;
+  overflow: hidden;
+}
+
+main ul li {
+  float: left;
+  width: 100%;
+  height: calc(160rem/112.5);
+  line-height: calc(160rem/112.5);
+  padding: 0px calc(46rem/112.5);
+  border-bottom: 1px solid #cccccc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main ul li:nth-child(2) {
+  width: 70%;
+}
+
+main ul li:nth-child(3) {
+  width: 30%;
+  border-left: 1px solid #ccc;
+}
+
+main ul li:nth-child(3) a {
+  color: #98989f;
+  font-size: calc(48rem/112.5);
+}
+
+main ul li span {
+  font-size: calc(46rem/112.5);
+  color: #000;
+}
+
+main ul li input {
+  width: calc(540rem/112.5);
+  font-size: calc(45rem/112.5);
+  padding: 0px calc(46rem/112.5);
+  color: #cccccc;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main .phone {
+  font-size: calc(44rem/112.5);
+  color: #fff;
+  display: block;
+  width: calc(1034rem/112.5);
+  height: calc(132rem/112.5);
+  line-height: calc(132rem/112.5);
+  text-align: center;
+  background-color: #caccd2;
+  border: none;
+  border-radius: calc(132rem/112.5/2);
+  margin: 0px auto;
+  margin-top: calc(90rem/112.5);
+  margin-bottom: calc(38rem/112.5);
+}
+
+main .agree {
+  position: relative;
+  padding: 0px calc(48rem/112.5);
+  padding-left: calc(117rem/112.5);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #cccccc;
+  overflow: hidden;
+  box-sizing: border-box;
+  line-height: calc(68rem/112.5);
+}
+
+main .agree i {
+  position: absolute;
+  top: 0;
+  left: calc(48rem/112.5);
+  display: inline-block;
+  width: calc(60rem/112.5);
+  height: calc(60rem/112.5);
+  background-image: url(../upload/agree-1.png);
+  background-position: 0px 20px;
+  background-size: calc(60rem/112.5) calc(120rem/112.5);
+}
+
+main .agree i:hover {
+  background-image: url(../upload/agree-1.png);
+  background-position: 0px 0px;
+  background-size: calc(60rem/112.5) calc(120rem/112.5);
+}
+
+main .agree a {
+  color: #157efa;
+  line-height: calc(68rem/112.5);
+}
+/*# sourceMappingURL=login.css.map */
