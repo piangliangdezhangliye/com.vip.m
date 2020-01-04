@@ -1,5 +1,6 @@
 // 头部
 header{
+    position: relative;
     width: 100%;
     height: calc(510rem/112.5);
     text-align: center;
@@ -7,6 +8,13 @@ header{
     img{
         width: calc(315rem/112.5);
         margin: calc(180rem/112.5) auto;
+    }
+    .ziti{
+        position: absolute;
+        top: calc(45rem/112.5);
+        right: calc(45rem/112.5);
+        font-size: calc(70rem/112.5);
+        color: #2b2b2b;
     }
 }
 // 主体

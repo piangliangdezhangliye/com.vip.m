@@ -1,4 +1,5 @@
 header {
+  position: relative;
   width: 100%;
   height: calc(150rem/112.5);
   background-color: #ffffff;
@@ -15,6 +16,14 @@ header input {
           box-sizing: border-box;
   border: 1px solid #edeeee;
   background-color: #f3f4f4;
+}
+
+header i {
+  position: absolute;
+  right: calc(80rem/112.5);
+  top: calc(55rem/112.5);
+  font-size: calc(45rem/112.5);
+  color: #9d9d9d;
 }
 
 main {
@@ -70,6 +79,7 @@ main .qing {
 
 main .qing > img {
   width: 100%;
+  border-bottom: calc(25rem/112.5) solid #f5f5f5;
 }
 
 main .qing .qing-shop {
@@ -124,6 +134,7 @@ main .stuff .stuff-title {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   overflow: hidden;
+  border-bottom: 1px solid #bcbcbc;
 }
 
 main .stuff .stuff-title li {
@@ -156,6 +167,7 @@ main .stuff .stuff-nav {
   width: 100%;
   padding: calc(24rem/112.5) 0px;
   overflow: hidden;
+  background-color: #fafafa;
 }
 
 main .stuff .stuff-nav li {
@@ -178,12 +190,13 @@ main .stuff .stuff-shop {
 
 main .stuff .stuff-shop li {
   width: 100%;
-  height: calc(645rem/112.5);
+  height: calc(652rem/112.5);
   padding-right: calc(24rem/112.5);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #fafafa;
+  margin-bottom: calc(20rem/112.5);
 }
 
 main .stuff .stuff-shop li a {
@@ -193,6 +206,11 @@ main .stuff .stuff-shop li a {
   padding-left: calc(24rem/112.5);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+main .stuff .stuff-shop li a .background {
+  height: 100%;
+  background-color: #fff;
 }
 
 main .stuff .stuff-shop li a img {
@@ -223,6 +241,7 @@ main .stuff .stuff-shop li a small {
 main .stuff .stuff-shop li a p {
   color: #585c64;
   margin-top: calc(30rem/112.5);
+  line-height: calc(50rem/112.5);
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -232,6 +251,7 @@ main .stuff .stuff-shop li a p {
 }
 
 main .stuff .more {
+  position: relative;
   display: block;
   color: #fff;
   width: calc(594rem/112.5);
@@ -241,5 +261,12 @@ main .stuff .more {
   text-align: center;
   margin: 0px auto;
   margin-bottom: calc(24rem/112.5);
+}
+
+main .stuff .more i {
+  position: absolute;
+  right: calc(170rem/112.5);
+  top: 0;
+  color: #fff;
 }
 /*# sourceMappingURL=dress.css.map */

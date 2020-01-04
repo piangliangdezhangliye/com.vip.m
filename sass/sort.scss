@@ -20,9 +20,24 @@ header{
         margin-left: calc(310rem/112.5);
         background-color: #585c64;
     }
+    .ziti{
+        font-size: calc(70rem/112.5);
+        color: #222;
+        &:last-child{
+            position: absolute;
+            right: calc(40rem/112.5);
+            top: calc(38rem/112.5);
+        }
+        &:first-child{
+            position: absolute;
+            left:calc(40rem/112.5) ;
+            top: calc(38rem/112.5);
+        }
+    }
 }
 // 导航
 nav{
+    width: 100%;
     height: calc(165rem/112.5);
     padding: calc(30rem/112.5) calc(45rem/112.5);
     background-color: #f3f4f5;
@@ -31,7 +46,7 @@ nav{
     top: calc(134rem/112.5);
     left: 0;
     input{
-        width: calc(978rem/112.5    );
+        width: 100%;
         height: calc(112rem/112.5);
         font-size: calc(42rem/112.5);
         background-color: #fff;

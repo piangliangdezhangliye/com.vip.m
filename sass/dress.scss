@@ -1,5 +1,6 @@
 // 头部
 header{
+    position: relative;
     width: 100%;
     height: calc(150rem/112.5);
     background-color: #ffffff;
@@ -12,6 +13,13 @@ header{
         box-sizing: border-box;
         border: 1px solid #edeeee;
         background-color: #f3f4f4;
+    }
+    i{
+        position: absolute;
+        right: calc(80rem/112.5);
+        top: calc(55rem/112.5);
+        font-size: calc(45rem/112.5);
+        color: #9d9d9d;
     }
 }
 // 主体
@@ -58,6 +66,7 @@ main{
         width: 100%;
         &>img{
             width: 100%;
+            border-bottom: calc(25rem/112.5) solid #f5f5f5;
         }
         .qing-shop{
             position: absolute;
@@ -101,6 +110,7 @@ main{
             padding: calc(25rem/112.5) 0px;
             box-sizing: border-box;
             overflow: hidden;
+            border-bottom: 1px solid #bcbcbc;
             li{
                 float: left;
                 width: 25%;
@@ -126,6 +136,7 @@ main{
             width: 100%;
             padding: calc(24rem/112.5) 0px;
             overflow: hidden;
+            background-color: #fafafa;
             li{
                 float: left;
                 margin: 0px calc(24rem/112.5);
@@ -144,17 +155,22 @@ main{
             margin-bottom: calc(56rem/112.5);
             li{
                 width: 100%;
-                height: calc(645rem/112.5);
+                height: calc(652rem/112.5);
                 padding-right: calc(24rem/112.5);
                 box-sizing: border-box;
                 overflow: hidden;
-                background-color: #fff;
+                background-color: #fafafa;
+                margin-bottom: calc(20rem/112.5);
                 a{
                     float: left;
                     width: 33.3333%;
                     height: 100%;
                     padding-left: calc(24rem/112.5);
                     box-sizing: border-box;
+                    .background{
+                        height: 100%;
+                        background-color: #fff;
+                    }
                     img{
                         width: 100%;
                         margin-bottom: calc(17rem/112.5);
@@ -178,6 +194,7 @@ main{
                     p{
                         color: #585c64;
                         margin-top: calc(30rem/112.5);
+                        line-height: calc(50rem/112.5);
                         text-overflow: ellipsis;
                         display: -webkit-box;
                         -webkit-line-clamp: 2;
@@ -190,6 +207,7 @@ main{
         }
         // 加载更多
         .more{
+            position: relative;
             display: block;
             color: #fff;
             width: calc(594rem/112.5);
@@ -199,6 +217,12 @@ main{
             text-align: center;
             margin: 0px auto;
             margin-bottom: calc(24rem/112.5);
+            i{
+                position: absolute;
+                right: calc(170rem/112.5);
+                top: 0;
+                color: #fff;
+            }
         }
     }
 }
