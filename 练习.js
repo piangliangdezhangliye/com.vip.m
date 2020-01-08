@@ -85,7 +85,26 @@ console.log(riqi(2020, 2, 9))
 //   }
 //   var arr = [10, 2, 3, 4, 6];
 //   printSumIs10MoM(arr);
-  
-console.log(typeof typeof 1)
 
-  
+
+var arr=[6,5,33,3,66,22]
+for(var i=0;i<arr.length-1;i++){
+    for(var j=0;j<arr.length-1-i;j++){
+        if(arr[j]>arr[j+1]){
+            var a=arr[j+1]
+            arr[j+1]=arr[j]
+            arr[j]=a
+        }
+    }
+}
+console.log(arr)
+
+
+var obj={
+    name:'李现',
+    age:18,
+    height:156,
+}
+for(var key in obj){
+    console.log(obj[key])
+}

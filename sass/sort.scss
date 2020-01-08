@@ -23,16 +23,17 @@ header{
     .ziti{
         font-size: calc(70rem/112.5);
         color: #222;
-        &:last-child{
-            position: absolute;
-            right: calc(40rem/112.5);
-            top: calc(38rem/112.5);
-        }
         &:first-child{
             position: absolute;
             left:calc(40rem/112.5) ;
             top: calc(38rem/112.5);
         }
+        &:last-child{
+            position: absolute;
+            right: calc(40rem/112.5);
+            top: calc(38rem/112.5);
+        }
+        
     }
 }
 // 导航
