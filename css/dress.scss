@@ -130,15 +130,15 @@ main{
         }
         // 切换
         .stuff-nav{
-            display: flex;
-            flex-wrap: nowrap;
-            overflow: hidden;
-            width: 100%;
-            padding: calc(24rem/112.5) 0px;
-            overflow: hidden;
-            background-color: #fafafa;
+            display: -webkit-box;
+    overflow: hidden;
+    width: 100%;
+    padding: calc(24rem/112.5) 0px;
+    overflow: hidden;
+    background-color: #fafafa;
+    overflow-x: auto;
             li{
-                float: left;
+                // float: left;
                 margin: 0px calc(24rem/112.5);
                 border: 1px solid #ccc; 
                 padding: calc(24rem/112.5) calc(36rem/112.5);

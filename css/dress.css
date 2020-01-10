@@ -159,19 +159,15 @@ main .stuff .stuff-title li:first-child a {
 
 main .stuff .stuff-nav {
   display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
   overflow: hidden;
   width: 100%;
   padding: calc(24rem/112.5) 0px;
   overflow: hidden;
   background-color: #fafafa;
+  overflow-x: auto;
 }
 
 main .stuff .stuff-nav li {
-  float: left;
   margin: 0px calc(24rem/112.5);
   border: 1px solid #ccc;
   padding: calc(24rem/112.5) calc(36rem/112.5);
